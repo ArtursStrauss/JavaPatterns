@@ -14,13 +14,13 @@ public class PlayWithRemote {
         onPressed.press();
 
         TurnTVOff offCommand = new TurnTVOff(newDevice);
-
         onPressed = new DeviceButton(offCommand);
+
         onPressed.press();
 
         TurnTVUp volUpCommand = new TurnTVUp(newDevice);
-
         onPressed = new DeviceButton(volUpCommand);
+
         onPressed.press();
         onPressed.press();
         onPressed.press();
@@ -35,7 +35,6 @@ public class PlayWithRemote {
         allDevices.add(theRadio);
 
         TurnItAllOff turnOffDevices = new TurnItAllOff(allDevices);
-
         DeviceButton turnThemOff = new DeviceButton(turnOffDevices);
 
         turnThemOff.press();
