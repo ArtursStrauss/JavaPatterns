@@ -1,4 +1,4 @@
-package StructuralDesignPattern.AdapterDesign;
+package StructuralDesignPattern.AdapterDesign.enemy;
 
 import java.util.Random;
 

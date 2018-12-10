@@ -1,4 +1,4 @@
-package StructuralDesignPattern.AdapterDesign;
+package StructuralDesignPattern.AdapterDesign.enemy;
 
 public class EnemyRobotAdapter implements EnemyAttacker {
 
