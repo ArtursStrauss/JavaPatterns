@@ -17,7 +17,7 @@ public class Singleton {
             "r", "r", "s", "s", "s", "s", "t", "t", "t", "t", "t", "t", "u",
             "u", "u", "u", "v", "v", "w", "w", "x", "y", "y", "z",};
 
-    private LinkedList<String> letterList = new LinkedList<String>(Arrays.asList(scrabbleLetters));
+    private LinkedList<String> letterList = new LinkedList<>(Arrays.asList(scrabbleLetters));
 
     static boolean firstThread = true;
 

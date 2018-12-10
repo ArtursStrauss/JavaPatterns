@@ -18,7 +18,7 @@ public class MyInvocationHandler implements InvocationHandler {
         Object result;
 
         try {
-            if (method.getName().indexOf("get") > -1) {
+            if (method.getName().contains("get")) {
                 System.out.println("...get Method Executing...");
             } else {
                 System.out.println("...set Method Executing...");

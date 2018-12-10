@@ -1,4 +1,4 @@
-package CreationalDesignPattern.BuilderDesign;
+package CreationalDesignPattern.BuilderDesign.robot;
 
 public interface RobotBuilder {
     public void buildRobotHead();

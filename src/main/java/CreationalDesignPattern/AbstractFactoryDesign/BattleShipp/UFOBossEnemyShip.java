@@ -1,10 +1,11 @@
-package CreationalDesignPattern.AbstractFactoryDesign;
+package CreationalDesignPattern.AbstractFactoryDesign.BattleShipp;
 
-public class UFOEnemyShip extends EnemyShip {
-
+public class UFOBossEnemyShip extends EnemyShip {
     EnemyShipFactory shipFactory;
 
-    public UFOEnemyShip(EnemyShipFactory shipFactory) {
+
+    public UFOBossEnemyShip(EnemyShipFactory shipFactory) {
+
         this.shipFactory = shipFactory;
     }
 

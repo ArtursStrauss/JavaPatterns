@@ -1,4 +1,4 @@
-package CreationalDesignPattern.AbstractFactoryDesign;
+package CreationalDesignPattern.AbstractFactoryDesign.BattleShipp;
 
 public class UFOEnemyShipFactory implements EnemyShipFactory {
 

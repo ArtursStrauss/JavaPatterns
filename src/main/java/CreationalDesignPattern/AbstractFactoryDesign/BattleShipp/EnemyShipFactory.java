@@ -1,4 +1,4 @@
-package CreationalDesignPattern.AbstractFactoryDesign;
+package CreationalDesignPattern.AbstractFactoryDesign.BattleShipp;
 
 public interface EnemyShipFactory {
     public ESWeapon addESGun();
